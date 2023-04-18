@@ -3,10 +3,10 @@ import Settings from "./Settings";
 
 export default {
     onLoad: () => {
-        logger.log("Hello world!");
+        logger.log("test");
     },
     onUnload: () => {
-        logger.log("Goodbye, world.");
+        logger.log("test");
     },
     settings: Settings,
 }
